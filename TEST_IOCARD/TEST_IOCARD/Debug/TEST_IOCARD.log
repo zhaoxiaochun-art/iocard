@@ -1,0 +1,10 @@
+﻿  CPci6356_ioCtrl.cpp
+  TEST_IOCARD.cpp
+  TEST_IOCARDDlg.cpp
+  正在生成代码...
+TEST_IOCARDDlg.obj : error LNK2019: 无法解析的外部符号 "public: __thiscall CPci6356_Card::CPci6356_Card(void)" (??0CPci6356_Card@@QAE@XZ)，该符号在函数 "public: __thiscall CPci6356_ioCtrl::CPci6356_ioCtrl(void)" (??0CPci6356_ioCtrl@@QAE@XZ) 中被引用
+TEST_IOCARDDlg.obj : error LNK2019: 无法解析的外部符号 "public: int __thiscall CPci6356_Card::Pci6356_Open(int,struct HWND__ *)" (?Pci6356_Open@CPci6356_Card@@QAEHHPAUHWND__@@@Z)，该符号在函数 "protected: virtual int __thiscall CTESTIOCARDDlg::OnInitDialog(void)" (?OnInitDialog@CTESTIOCARDDlg@@MAEHXZ) 中被引用
+TEST_IOCARDDlg.obj : error LNK2019: 无法解析的外部符号 "public: int __thiscall CPci6356_Card::Pci6356_IsOpen(void)" (?Pci6356_IsOpen@CPci6356_Card@@QAEHXZ)，该符号在函数 "protected: virtual int __thiscall CTESTIOCARDDlg::OnInitDialog(void)" (?OnInitDialog@CTESTIOCARDDlg@@MAEHXZ) 中被引用
+Pci6356Lib.lib : warning LNK4272: 库计算机类型“x64”与目标计算机类型“x86”冲突
+Pci6356Libx64.lib : warning LNK4272: 库计算机类型“x64”与目标计算机类型“x86”冲突
+D:\Work_Dev\TEST_IOCARD\Debug\TEST_IOCARD.exe : fatal error LNK1120: 3 个无法解析的外部命令
